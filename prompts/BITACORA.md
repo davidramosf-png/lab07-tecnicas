@@ -56,7 +56,7 @@ Compare un pedido de una sola vez con un pedido dividido en 4 pasos, todos en el
 
 Comparacion con el pedido de una sola vez:En el pedido por pasos pude revisar cada parte antes de seguir y el codigo de Producto fue coherente con el diseno de clases, que a su vez salio de los requisitos.
 
-Compilacion opcional (javac Producto.java): no realizada, porque es un paso opcional y mi computadora no tiene el compilador javac instalado..
+Compilacion opcional: no realizada, porque es un paso opcional y mi computadora no tiene el compilador javac instalado..
 
 ## Ejercicio 6: Prompt estructurado y autocritica
 
@@ -66,7 +66,7 @@ Prompt basico: "Dame casos de prueba para un login." La IA respondio con una tab
 
 Prompt estructurado: la IA entrego una tabla de 6 casos (TC-01 a TC-06) con las 4 columnas pedidas. Cubre el inicio de sesion valido, los tres intentos fallidos consecutivos, el acceso despues del bloqueo y un intento fallido sobre una cuenta ya bloqueada.
 
-Autocritica: la IA mantuvo los 6 casos y agrego 5: TC-07 (correo y contrasena vacios), TC-08 (correo vacio), TC-09 (contrasena vacia), TC-10 (correo con formato invalido) y TC-11 (contraseña con espacios). Tambien indico cuales agrego.
+Autocritica: la IA mantuvo los 6 casos y agrego 5: TC-07 (correo y contrasena vacios), TC-08 (correo vacio), TC-09 , TC-10 (correo con formato invalido) y TC-11. Tambien indico cuales agrego.
 
 | Que revisar | Cumple (Si / No) |
 |-------------|------------------|
@@ -76,7 +76,7 @@ Autocritica: la IA mantuvo los 6 casos y agrego 5: TC-07 (correo y contrasena va
 | Indica que casos agrego en la autocritica? | Si |
 | Hay algun caso repetido o que no tenga sentido? | No |
 
-Observaciones propias: TC-07, TC-08 y TC-09 se parecen entre si, y en TC-11 el resultado esperado quedo ambiguo (dice "si estan prohibidos... si estan permitidos..."). La IA tambien puede equivocarse al revisarse, por eso yo soy el ultimo revisor.
+Observaciones propias: TC-07, TC-08 y TC-09 se parecen entre si, y en TC-11 el resultado esperado quedo ambiguo. La IA tambien puede equivocarse al revisarse, por eso yo soy el ultimo revisor.
 
 Prompt usado:
 
